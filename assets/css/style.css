@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header_color{
+    background-color: #0fcabf;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.nav-link{
+    color: black !important;
+}
+.slider_head{
+    font-size: 80px;
+}
+.carousel-indicators{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+.carousel-indicators .active{
+    background-color: #11c3c0 !important;
+}
+.carousel-item img{
+    opacity:0.9 ;
+}
+.card_project .card{
+    border: none;
+}
+.card_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color:#0fcabf ;
+    border-bottom: 2px solid white;
+    color: #025a55;
+}
+.card_project .card-body{
+    background-color: #0fcabf;
+    text-align: center;
+}
+.trending_margin{
+    margin-top: 150px;
+}
+.trending_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trending_card .card{
+    border: none;
+}
+.trending_card img{
+    border-radius: 0%;
+}
+.trending_margin .card-body{
+    padding: 0;
+}
+@media screen and (max-width:786px) {
+    .card_project .card {
+        margin-bottom: 30px;
+    } 
+    .trending_margin {
+        margin-top: 10px;
+    }
+}
+.recent_color{
+    background-color: #0fcabf;
+}
+.recent_body{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.recent_color .card {
+    border: none;
+    background-color: transparent;
+}
+.recent_color .card-body{
+    padding: 0;
+}
+.recent_head{
+    padding-bottom: 40px;
+}
+.recent_body img{
+    border-radius: 0%;
+}
+.our_company i {
+    color: #b0edea;
+}
+.our_company button{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 120px;
+    height: 50px;
+    background-color: #0fcabf;
+}
+.our_company button:hover{
+    background-color: #04746e;
+}
+footer .contact{
+    background-color: #1d1d1d;
+}
+footer .head_footer{
+    color: #108190;
+}
+footer .text_footer a{
+    color: #6c6d6f;
+    text-decoration: none;
+}
+footer .contact_social_media{
+    background-color: #1b1b1b;
+}
+footer .footer_border{
+    border: 1px solid #36383a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.social_media{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+footer .social_media_text a{
+    color: #6c6d6f;
+}
+footer .adress{
+    color: #6c6d6f;;
+}
+footer .text_footer a:hover{
+    color: rgb(32, 32, 32);
+}
+footer .social_media_text a:hover{
+    color: white;
+}
+.webthemez{
+    text-decoration: none;
+    color: rgb(148, 144, 144);
+}
+
+/*SERVİCES BÖLÜMÜ BAŞLANGIÇ */
+
+.services_header{
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.services_header h2{
+    color: #434342;
+}
+.services_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 180px;
+    background-color: #e6e6e6;
+    margin-right: 15px;
+    color: #3dd0c7;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.services_head h5{
+    font-family: 'Roboto', sans-serif;
+}
+ .services_card .card{
+     border: none;
+ }
+ .services_card .card .card-body {
+     padding: 0;
+ }
+ /* PROJECTS BÖLÜMÜ BAŞLANGIÇ */
+
+.projects_head{
+    font-family: 'Roboto', sans-serif;
+}
+.projects_head p{
+    color: #4b4b4b;
+}
+.projects ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.projects li {
+    list-style: none;
+}
+.projects ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.projects ul li a:hover{
+    color: #0fcabf;
+}
+.projects div{
+    color: rgb(218, 213, 213);
+}
+.projects_card .card{
+    border: none;
+}
+
+/* PRICING BÖLÜMÜ BAŞLANGIÇ */
+
+.basic_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    background-color: #f7f7f7;
+
+}
+.basic_dolar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px dotted gray;
+}
+.basic_dolar i{
+    color: #3dd0c7;
+}
+.basic_year{
+    font-size: 25px;
+    color: #3dd0c7;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid rgb(187, 184, 184);
+}
+.basic_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid rgb(187, 184, 184);
+}
+.basic_button button{
+    background-color: #3dd0c7;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+.basic_button button:hover{
+    background-color:#155752 ;
+}
+.basic_card .active{
+    background-color:#3dd0c7 ;
+    color: white;
+}
+/* contact us başlangıç */
+.form_border input, textarea{
+    border: 1px solid rgb(219, 205, 205);
+}
+.form_border button{
+    background-color: #3dd0c7;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+.button_location{
+    display: flex;
+    justify-content: flex-end;
+}
+.form_border button:hover{
+    background-color: #155752;
+}
